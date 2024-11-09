@@ -29,9 +29,16 @@ h1 {
 
 p {
     font-size: 2.5em;
-    color: #ff004d;
     margin: 0;
     animation: neon 1.5s infinite alternate;
+}
+
+.no {
+    color: #ff004d;
+}
+
+.yes {
+    color: #39ff14;
 }
 
 /* Animations */
