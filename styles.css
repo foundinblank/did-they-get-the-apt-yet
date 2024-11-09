@@ -23,7 +23,7 @@ h1 {
     font-size: 3em;
     font-weight: bold;
     color: #00ffff;
-    animation: flicker 2s infinite alternate;
+    /* animation: flicker 2s infinite alternate; */
     padding-top: 100px;
 }
 
