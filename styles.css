@@ -8,23 +8,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75wh;
     /* height: 100vh; */
     text-align: center;
 }
 
 .container {
     background: rgba(0, 0, 0, 0.5);
-    padding: 30px;
+    padding: 30px 100px 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(255, 0, 150, 0.6);
-}
-
-p {
-    font-size: 2.5em;
-    color: #ff004d;
-    margin: 0;
-    animation: neon 1.5s infinite alternate;
 }
 
 h1 {
@@ -32,6 +24,13 @@ h1 {
     font-weight: bold;
     color: #00ffff;
     animation: flicker 2s infinite alternate;
+}
+
+p {
+    font-size: 2.5em;
+    color: #ff004d;
+    margin: 0;
+    animation: neon 1.5s infinite alternate;
 }
 
 /* Animations */
