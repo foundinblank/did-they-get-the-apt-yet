@@ -69,7 +69,7 @@ h2 {
 }
 
 .counter {
-    font-size: 2em;
+    font-size: 3em;
     color: #ff73fa;
     animation: hot-pink 1.5s infinite alternate;
     margin: 0 /* Ensure there's no extra margin */
