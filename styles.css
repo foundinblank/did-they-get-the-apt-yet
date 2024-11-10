@@ -35,13 +35,17 @@ p {
 
 .counters {
     display: flex;
-    justify-content: center; /* Center the counter boxes horizontally */
+    justify-content: center;
     gap: 30px;
     margin-top: 20px;
 }
 
 .counter-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Aligns the heading at the top and the counter at the bottom */
     width: 200px;
+    height: 150px; /* Set a fixed height to ensure consistency between boxes */
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 8px;
@@ -59,15 +63,16 @@ p {
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-top: 20px;
+    font-size: 1.2em;
+    /* margin-top: 20px; */
     color: #00ffff;
 }
 
 .counter {
-    /* font-size: 2em; */
+    font-size: 2em;
     color: #ff73fa;
     animation: hot-pink 1.5s infinite alternate;
+    margin: 0 /* Ensure there's no extra margin */
 }
 
 /* Animations */
