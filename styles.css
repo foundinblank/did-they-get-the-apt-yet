@@ -35,6 +35,7 @@ p {
 
 .counters {
     display: flex;
+    justify-content: center; /* Center the counter boxes horizontally */
     gap: 30px;
     margin-top: 20px;
 }
@@ -60,12 +61,13 @@ p {
 h2 {
     font-size: 1.5em;
     margin-top: 20px;
-    color: #39FF14; /* Electric green */
+    color: #00ffff;
 }
 
 .counter {
     /* font-size: 2em; */
     color: #ff73fa;
+    animation: hot-pink 1.5s infinite alternate;
 }
 
 /* Animations */
@@ -77,6 +79,11 @@ h2 {
 @keyframes neon-green {
     from { text-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14; }
     to { text-shadow: 0 0 20px #39ff14, 0 0 30px #39ff14, 0 0 40px #39ff14, 0 0 50px #39ff14; }
+}
+
+@keyframes hot-pink {
+    from { text-shadow: 0 0 10px #ff73fa, 0 0 20px #ff73fa, 0 0 30px #ff73fa; }
+    to { text-shadow: 0 0 20px #ff73fa, 0 0 30px #ff73fa, 0 0 40px #ff73fa, 0 0 50px #ff73fa; }
 }
 
 @keyframes flicker {
