@@ -33,6 +33,20 @@ p {
     animation: neon 1.5s infinite alternate;
 }
 
+.counters {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.counter-box {
+    width: 200px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
 .no {
     color: #ff004d;
     animation: neon-red 1.5s infinite alternate;
