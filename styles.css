@@ -95,3 +95,45 @@ h2 {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.8; }
 }
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Adds padding to prevent content from touching the edges */
+    }
+    
+    .container {
+        padding: 20px; /* Reduces padding for a better fit on small screens */
+        width: 100%; /* Make sure it takes the full width */
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 2em; /* Decrease the font size for better readability */
+        padding-top: 20px;
+    }
+
+    p {
+        font-size: 1.8em; /* Smaller font for mobile */
+    }
+
+    .counters {
+        flex-direction: column; /* Stack the counters vertically */
+        gap: 20px; /* Less gap for mobile layout */
+    }
+
+    .counter-box {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Let height adjust automatically */
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        font-size: 1em; /* Smaller font for better readability */
+    }
+
+    .counter {
+        font-size: 2em; /* Adjust font size for counter text */
+    }
+}
