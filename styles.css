@@ -43,6 +43,17 @@ p {
     animation: neon-green 1.5s infinite alternate;
 }
 
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #39FF14; /* Electric green */
+}
+
+.counter {
+    font-size: 2em;
+    color: #ff73fa;
+}
+
 /* Animations */
 @keyframes neon-red {
     from { text-shadow: 0 0 10px #ff004d, 0 0 20px #ff004d, 0 0 30px #ff004d; }
