@@ -2,9 +2,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'VT323', monospace;
     background: linear-gradient(135deg, #1e0138, #32015d, #44007a, #87009a);
-    color: #fff;
+    color: #222;
     display: flex;
     justify-content: center;
     align-items: center;
