@@ -63,7 +63,7 @@ p {
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     /* margin-top: 20px; */
     color: #00ffff;
 }
@@ -130,7 +130,7 @@ h2 {
     }
 
     h2 {
-        font-size: 1em; /* Smaller font for better readability */
+        font-size: 1.5em; /* Smaller font for better readability */
     }
 
     .counter {
