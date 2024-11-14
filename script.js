@@ -1,6 +1,8 @@
 // Set the target dates
 const offerAcceptedDate = new Date('2024-07-26');
 const applicationSubmittedDate = new Date('2024-10-02');
+const boardApplicationDate = new Date('2024-10-16');
+
 
 // Function to calculate the number of days since a given date
 function calculateDaysSince(date) {
@@ -13,6 +15,7 @@ function calculateDaysSince(date) {
 function updateCounters() {
     document.getElementById('offerCounter').textContent = calculateDaysSince(offerAcceptedDate);
     document.getElementById('applicationCounter').textContent = calculateDaysSince(applicationSubmittedDate);
+    document.getElementById('boardCounter').textContent = calculateDaysSince(boardApplicationDate);
 }
 
 // Call the function to set the initial counters
