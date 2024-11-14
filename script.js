@@ -1,7 +1,7 @@
 // Set the target dates
 const offerAcceptedDate = new Date('2024-07-26');
 const applicationSubmittedDate = new Date('2024-10-02');
-const boardApplicationDate = new Date('2024-10-16');
+const boardApplicationDate = new Date('2024-10-15');
 
 
 // Function to calculate the number of days since a given date
