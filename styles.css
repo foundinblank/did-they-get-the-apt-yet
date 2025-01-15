@@ -24,7 +24,8 @@ h1 {
     font-weight: bold;
     color: #00ffff;
     /* animation: flicker 2s infinite alternate; */
-    padding-top: 100px;
+    padding-top: 50px;
+    margin-bottom: 20px; /* Reduce space below */
 }
 
 p {
@@ -141,5 +142,18 @@ h2 {
 .resized-image {
     width: 50%; /* Adjusts the image width to 50% of the container/page */
     display: block; /* Ensures the image behaves like a block element */
-    margin: 0 auto; /* Centers the image horizontally */
+    margin: 10px auto; /* Centers the image and reduces gap around it */
+    border: 10px solid rgba(0, 255, 255, 0.5); /* Base border with transparency */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 60px rgba(0, 255, 255, 0.8); /* Glowing neon effect */
+    animation: glow 2s infinite alternate; /* Animate the glow for added flair */
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 60px rgba(0, 255, 255, 0.5);
+    }
+    to {
+        box-shadow: 0 0 30px #00ffff, 0 0 50px #00ffff, 0 0 70px rgba(0, 255, 255, 0.8);
+    }
 }
